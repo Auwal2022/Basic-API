@@ -1,0 +1,28 @@
+#buddy-container{
+    margin: 10px;
+   
+}
+
+#country-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#buddy-container > p,
+#country-list > h4{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+
+#buddy-container > p:hover,
+#country-list > h4:hover{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+

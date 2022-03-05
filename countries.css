@@ -1,0 +1,46 @@
+
+
+#country-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#country-list > div{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+
+#country-list > div:hover{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+#country-list > div > button{
+    padding: 5px 15px;
+    
+}
+
+
+#country-details-container{
+    border: 1px solid pink;
+    padding: 15px;
+    margin: 10px;
+}
+
+#country-details-container > p,
+#country-details-container > h4{
+    margin: 10px;
+}
+
+#country-details-container > img{
+    margin-left: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
